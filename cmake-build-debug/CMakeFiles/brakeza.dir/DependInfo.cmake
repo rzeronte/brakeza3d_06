@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/darkhead/CLionProjects/brakeza_04/main.cpp" "/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/CMakeFiles/brakeza.dir/main.cpp.o"
+  "/Users/darkhead/CLionProjects/brakeza_05/main.cpp" "/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/CMakeFiles/brakeza.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -1,83 +1,13 @@
 #include <iostream>
 #include <SDL.h>
-#include "suzanne_vertices.h"
 
 #define WINDOW_WIDTH 640
 #define WINDOW_HEIGHT 480
-#define PIXEL_SCALE 100
 
 struct point2d {
     float x;
     float y;
 };
-
-float degreesToRadians(float angleDegrees)
-{
-    return angleDegrees * (float) M_PI / (float) 180.0;;
-}
-
-vertice rotarEjeX(vertice V, double degrees) {
-    double rads = degreesToRadians(degrees);
-
-    vertice A;
-    A.x = 1 * V.x;
-    A.y =  cos(rads) * V.y + sin(rads) * V.z;
-    A.z =  -sin(rads) * V.y + cos(rads) * V.z;
-
-    return A;
-}
-
-vertice rotarEjeY(vertice V, double degrees) {
-    double rads = degreesToRadians(degrees);
-
-    vertice A;
-    A.x = ( cos(rads) * V.x ) - ( sin(rads) * V.z );
-    A.y = 1 * V.y;
-    A.z = ( sin(rads) * V.x ) + ( cos(rads) * V.z );
-
-    return A;
-}
-
-vertice rotarEjeZ(vertice V, double degrees) {
-    double rads = degreesToRadians(degrees);
-
-    vertice A;
-    A.x = ( cos(rads) * V.x ) + ( sin(rads) * V.y );
-    A.y = ( -sin(rads) * V.x ) + ( cos(rads) * V.y );
-    A.z = 1 * V.z ;
-
-    return A;
-}
-
-vertice mueveVertice(vertice v, float x, float y, float z)
-{
-    vertice vt;
-    vt.x = v.x + x;
-    vt.y = v.y + y;
-    vt.z = v.z + z;
-
-    return vt;
-}
-
-point2d perspectiveDivision(vertice v)
-{
-    point2d p;
-
-    // Nos aseguramos de aplicar el pixel_scale por si z fuese cero.
-    p.x = v.x * PIXEL_SCALE;
-    p.y = v.y * PIXEL_SCALE;
-
-    if (v.z != 0) {
-        p.x = (v.x / v.z) * PIXEL_SCALE;
-        p.y = (v.y / v.z) * PIXEL_SCALE;
-    }
-
-    // Centramos el punto en pantalla
-    p.x+= WINDOW_WIDTH/2;
-    p.y+= WINDOW_HEIGHT/2;
-
-    return p;
-}
 
 int main() {
     SDL_Event event;
@@ -92,17 +22,29 @@ int main() {
     SDL_RenderClear(renderer);
     SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
 
-    loadVertices();
+    point2d a, b;
+    a.x = 10; a.y = 10;
+    b.x = 30; b.y = 300;
 
-    for (int i = 0; i<=1448; i++) {
-        vertice t;
-        t = mueveVertice(v[i], 0, 0, 3);
-        t = rotarEjeX(t, 0);
-        t = rotarEjeY(t, 0);
-        t = rotarEjeZ(t, 90);
+    float y_diff = b.y - a.y;
+    float x_diff = b.x - a.x;
 
-        point2d p = perspectiveDivision(t);
-        SDL_RenderDrawPoint(renderer, p.x, p.y);
+    // m = pendiente
+    float m = (y_diff/x_diff);
+
+    // izquierda derecha
+    for (int i = a.x; i < b.x; i++) {
+        int px = i;
+        int py = m * (px-a.x) + a.y;
+        SDL_RenderDrawPoint(renderer, px, py);
+    }
+
+    // de arriba a abajo
+    for (int i = a.y; i < b.y; i++) {
+        int py = i;
+        int px = (py-a.y) / m  + a.x;
+        SDL_RenderDrawPoint(renderer, px, py);
+
     }
     SDL_RenderPresent(renderer);
 

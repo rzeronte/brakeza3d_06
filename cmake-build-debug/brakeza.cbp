@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug"/>
+				<Option working_dir="/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug"/>
+				<Option working_dir="/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug"/>
+				<Option working_dir="/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="brakeza">
-				<Option output="/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/brakeza" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug"/>
+				<Option output="/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/brakeza" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,15 +55,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 brakeza"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 brakeza"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="brakeza/fast">
-				<Option output="/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/brakeza" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug"/>
+				<Option output="/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/brakeza" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -79,29 +79,29 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 brakeza/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 brakeza/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/darkhead/CLionProjects/brakeza_04/main.cpp">
+		<Unit filename="/Users/darkhead/CLionProjects/brakeza_05/main.cpp">
 			<Option target="brakeza"/>
 		</Unit>
-		<Unit filename="/Users/darkhead/CLionProjects/brakeza_04/suzanne_vertices.h">
+		<Unit filename="/Users/darkhead/CLionProjects/brakeza_05/suzanne_vertices.h">
 			<Option target="brakeza"/>
 		</Unit>
-		<Unit filename="/Users/darkhead/CLionProjects/brakeza_04/CMakeLists.txt">
+		<Unit filename="/Users/darkhead/CLionProjects/brakeza_05/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/FindSDL2.cmake">
+		<Unit filename="/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/FindSDL2.cmake">
 			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
 		</Unit>
-		<Unit filename="/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/FindSDL2_image.cmake">
+		<Unit filename="/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/FindSDL2_image.cmake">
 			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
 		</Unit>
-		<Unit filename="/Users/darkhead/CLionProjects/brakeza_04/cmake-build-debug/FindSDL2_ttf.cmake">
+		<Unit filename="/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/FindSDL2_ttf.cmake">
 			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
 		</Unit>
 	</Project>

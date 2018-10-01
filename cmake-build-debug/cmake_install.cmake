@@ -1,4 +1,4 @@
-# Install script for directory: /Users/darkhead/CLionProjects/brakeza_05
+# Install script for directory: /Users/darkhead/CLionProjects/brakeza_06
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/darkhead/CLionProjects/brakeza_05/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/darkhead/CLionProjects/brakeza_06/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

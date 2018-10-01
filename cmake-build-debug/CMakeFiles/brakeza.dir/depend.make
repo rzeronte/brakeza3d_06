@@ -47,4 +47,5 @@ CMakeFiles/brakeza.dir/main.cpp.o: /Library/Frameworks/SDL2.framework/Headers/SD
 CMakeFiles/brakeza.dir/main.cpp.o: /Library/Frameworks/SDL2.framework/Headers/begin_code.h
 CMakeFiles/brakeza.dir/main.cpp.o: /Library/Frameworks/SDL2.framework/Headers/close_code.h
 CMakeFiles/brakeza.dir/main.cpp.o: ../main.cpp
+CMakeFiles/brakeza.dir/main.cpp.o: ../suzanne_vertices.h
 
